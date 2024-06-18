@@ -10,7 +10,11 @@ function App() {
       <div className='root'>
         <Outlet />
         <Link to='/context'><button className='border-2 border-black pl-2 pr-2 bg-white'>Context</button></Link>
-        <button className='border-2 border-black pl-2 pr-2 bg-white'>Redux</button>
+        <Link to='/swiggy'>
+          <button className='border-2 border-black pl-2 pr-2 bg-white'>
+            SWIGGY
+          </button>
+        </Link>
       </div>
     </Header>
   );

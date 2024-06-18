@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import ContextApi from "../ContextApi";
+import Swiggy from "../components/SwiggyDemo";
 
 export const appRouter = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ export const appRouter = createBrowserRouter([
             {
                 path: '/redux',
                 element: <ContextApi/>,
+            },
+            {
+                path: '/swiggy',
+                element: <Swiggy/>,
             }
         ],
     }
